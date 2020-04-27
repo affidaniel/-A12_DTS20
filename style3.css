@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content2{
+  width: 100%;
+  margin: 100px 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content2-wrapper{
+  padding: 0px 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.portfolios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio{
+  margin: 20px 0px;
+  padding: 0px 50px;
+  height: 450px;
+  width: 23%;
+  position: relative;
+  border-radius: 10px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  transition: transform 1s;
+}
+
+.content2 {
+  background-color: #fff;
+}
+
+
+.portfolio-content{
+  position: absolute;
+  bottom : 50px;
+  text-align: center;
+}
+
+.content2-wrapper h2{
+  font-size: 60px;
+  font-weight: bold;
+
+}
+
+.content2-wrapper p{
+  font-size: 20px;
+  display: block;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  color: #717173;
+}
+
+.portfolio-content h3{
+  font-size: 20px;
+  font-weight: normal;
+  color: #DFDCF3;
+}
+
+.portfolio-content p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+.btn-deails{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  padding: 3px 8px;
+  margin-top: 30px;
+  border: 2px solid rgba(252, 74, 29, 0.8);
+  border-radius: 3px;
+  display: inline-block;
+
+}
+
+.portfolio-hover{
+  visibility: hidden;
+  background-image: linear-gradient(rgba(252, 74, 29, 0.8) 0px, rgba(0, 0, 0, 0.8));
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+
+.portfolio:hover .portfolio-hover{
+  visibility: visible;
+}
+
+.btn-deails:hover{
+  background-color: #FC4A1A;
+
+}
+
+
+.portfolio:hover{
+  transform: scale(1.1, 1.1);
+}
+
+/* MORE PORTFOLIO*/
+.btn-more-port{
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 0px;
+  border-radius: 5px;
+  background-color: #FC4A1A;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn-more-port:hover{
+  border: 2px solid rgba(252, 74, 29, 0.8);
+  border-radius: 5px;
+  color: #FC4A1A;
+  background-color: transparent;
+}
+
+/* BATAS SUCI DESKTOP*/
+
+@media(max-width:1023px){
+  .portfolio{
+    width: 45%;
+    height: 350px;
+  }
+
+  .portfolio-content{
+    bottom : 40px;
+  }
+}
+
+@media(max-width:767px){
+  .portfolio{
+    width: 98%;
+    height: 300px;
+  }
+
+  .portfolio-content{
+    bottom : 30px;
+  }
+
+  .btn-more-port{
+    width: 100%;
+  }
+
+.portfolio-hover{
+    visibility: visible;
+  }
+}

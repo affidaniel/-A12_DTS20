@@ -1,0 +1,15 @@
+/* Untuk Tablets */
+@media (max-width: 1200px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+}

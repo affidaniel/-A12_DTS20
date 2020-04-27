@@ -1,0 +1,84 @@
+/* Ketik code anda dibaris terbawah */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "arial";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.top-atas {
+  padding: 180px 0 150px 0;
+  background-image: url(gambar/cek2.png);
+  background-size: cover;
+  color: #239b76;
+  text-align: left;
+}
+
+.top-atas h1 {
+  font-size: 65px;
+}
+.top-atas h2 {
+  font-size: 35px;
+}
+
+.top-atas p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btnn-read {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.btnn-read p {
+  margin: 10px 0;
+}
+
+.read {
+  background-color: #239b76;
+}
+
+
+.btnn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 43px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.btnn:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

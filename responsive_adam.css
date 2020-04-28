@@ -1,7 +1,7 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .triangle {
-    height: 20%;
+    height: 20vh;
   }
   
   .footer {
@@ -37,7 +37,7 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
    .triangle {
-    height: 20%;
+    height: 20vh;
   }
   
   .footer {
